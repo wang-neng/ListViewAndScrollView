@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+ <!-- 这里比较简单就一个FrameLayout，嵌套两个TextView，需要注意的是id为alp的TextView为前景TextView，
+      id为deleTextView正常情况下是不可见， 我们要做的事情， 当user手势向左滑动的时候，
+       把deleTextView显示出来。
+  -->
+
+
+    <TextView
+        android:layout_gravity="right"
+        android:id="@+id/dele"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="删除"
+        android:enabled="false"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/alp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="#ffffff"
+        android:text="A" />
+
+</FrameLayout>

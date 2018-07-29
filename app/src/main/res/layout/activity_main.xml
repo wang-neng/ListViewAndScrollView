@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/list_nested_scroll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ListViewNestedScrollView按钮One"/>
+
+    <Button
+        android:id="@+id/list_nested_scroll_btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ListViewNestedScrollView按钮Two"/>
+
+    <Button
+        android:id="@+id/scroll_nested_list_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ScrollViewNestedListView按钮One"/>
+
+    <Button
+        android:id="@+id/left_scroll_delete_one_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="LeftScrollDeleteOne按钮One"/>
+
+    <Button
+        android:id="@+id/left_scroll_delete_two_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="LeftScrollDeleteTwo按钮Two"/>
+
+    <Button
+        android:id="@+id/left_scroll_delete_add_refresh_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="DeleteListViewMainActivity按钮"/>
+</LinearLayout>
